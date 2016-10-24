@@ -80,6 +80,7 @@
         process.exit(0);
       } else {
         console.log('lambda-local failed.');
+        console.log(err);
         // Finish the process
         process.exit(1);
       }
