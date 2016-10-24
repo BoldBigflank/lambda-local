@@ -90,6 +90,7 @@
                 process.exit(0);
             } else {
                 logger.log('error', 'lambda-local failed.');
+		logger.log('error', err);
                 // Finish the process
                 process.exit(1);
             }
